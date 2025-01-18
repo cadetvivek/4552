@@ -21,6 +21,14 @@
 .nav-links {
   display: flex;
   gap: 1.5rem;
+  
+}
+.nav-links :hover{
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  color: blue; /* Change text color to white */
+  border-radius: 5px; /* Add rounded corners */
+  transition: all 0.2s ease-in-out; /* Smooth transition effect */
+  
 }
 
 .nav-links a {
@@ -34,11 +42,6 @@
   gap: 1rem;
 }
 
-.language-select {
-  padding: 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
 
 .login-btn {
   padding: 0.5rem 1rem;
