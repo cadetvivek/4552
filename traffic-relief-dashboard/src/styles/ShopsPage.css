@@ -1,0 +1,146 @@
+.shops-container {
+  min-height: 70vh;
+  background-color: plum;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+ 
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.text-section {
+  flex: 1;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #2a2a5a;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.tracking-form1 {
+  width: 100%;
+}
+
+.input-group {
+  display: flex;
+  background: white;
+  border-radius: 50px;
+  padding: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tracking-input1 {
+  flex: 1;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  outline: none;
+  background: transparent;
+}
+
+.submit-button {
+  background: #4a4a8a;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background: #3a3a7a;
+}
+
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
+
+.image-section {
+  flex: 2; /* Increased flex value for larger images */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  width: 100%; /* Increased width for larger images */ 
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .content-wrapper {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .text-section {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .image-section {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .shops-container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .input-group {
+    padding: 0.25rem;
+  }
+
+  .tracking-input {
+    padding: 0.5rem 1rem;
+  }
+
+  .submit-button {
+    width: 40px;
+    height: 40px;
+  }
+}

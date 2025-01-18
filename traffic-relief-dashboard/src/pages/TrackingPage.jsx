@@ -20,7 +20,7 @@ function TrackingPage() {
               className="tracking-input"
             />
             <button type="submit" className="track-button">
-              Track my parcel
+              Track parcel
             </button>
           </form>
         </div>
