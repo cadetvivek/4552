@@ -1,0 +1,377 @@
+.hub-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hub-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .hub-header h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hub-subtitle {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .service-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .service-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .service-title {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .service-description {
+    color: #666;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+
+
+
+
+
+
+  /*youtube css */
+  .case-studies-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .video-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    background: #000;
+    overflow: hidden;
+  }
+  
+  .video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .video-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .play-button {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 0, 0, 0.8);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .play-button svg {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .video-card:hover .play-button {
+    background: rgb(255, 0, 0);
+    transform: scale(1.1);
+  }
+  
+  .video-title {
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.4;
+  }
+  /*medical freature*/
+  .hub-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .header h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Features Grid */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .feature-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-title {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
+  
+  .feature-description {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Diagram Section */
+  .diagram-section {
+    margin-top: 4rem;
+  }
+  
+  .diagram-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+  }
+  
+  .diagram-container {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .diagram-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .hub-container {
+      padding: 1rem;
+    }
+  
+    .header h1 {
+      font-size: 2rem;
+    }
+  
+    .features-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  
+    .diagram-container {
+      padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header h1 {
+      font-size: 1.75rem;
+    }
+  
+    .subtitle {
+      font-size: 1rem;
+    }
+  
+    .feature-card {
+      padding: 1.5rem;
+    }
+  
+    .diagram-container {
+      padding: 0.5rem;
+    }
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .case-studies-container {
+      padding: 1rem;
+    }
+  
+    .video-grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+  
+    .main-title {
+      font-size: 2rem;
+    }
+  
+    .play-button {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .play-button svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .video-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .main-title {
+      font-size: 1.75rem;
+    }
+  
+    .video-title {
+      font-size: 1rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .hub-container {
+      padding: 1rem;
+    }
+  
+    .hub-header h1 {
+      font-size: 2rem;
+    }
+  
+    .services-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  
+    .service-card {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .hub-header h1 {
+      font-size: 1.75rem;
+    }
+  
+    .hub-subtitle {
+      font-size: 1rem;
+    }
+  
+    .service-title {
+      font-size: 1.25rem;
+    }
+  
+    .service-icon {
+      font-size: 2rem;
+    }
+  }

@@ -4,6 +4,7 @@ import TrackingPage from './pages/TrackingPage';
 import ShopsPage from './pages/ShopsPage';
 import SolutionsPage from './pages/SolutionsPage';
 import SupportPage from './pages/SupportPage';
+import Hub from './pages/Hub';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/shops" element={<ShopsPage />} />
           <Route path="/solutions" element={<SolutionsPage />} />
           <Route path="/support" element={<SupportPage />} />
+          <Route path="/hub" element={<Hub />} />
         </Routes>
       </div>
     </Router>
