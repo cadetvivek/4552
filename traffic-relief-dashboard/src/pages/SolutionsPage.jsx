@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/SolutionsPage.css";
-
+import Assistance from "../components/Assistance/Assistance";
 const SolutionsPage = () => {
   const images = [
     
@@ -22,6 +22,7 @@ const SolutionsPage = () => {
   }, [images.length]);
 
   return (
+    <div>
     <div className="slider-container">
       <div
         className="slider"
@@ -36,6 +37,9 @@ const SolutionsPage = () => {
         ))}
       </div>
     </div>
+    <Assistance/>
+    </div>
+
   );
 }
 

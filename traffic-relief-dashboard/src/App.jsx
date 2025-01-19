@@ -7,6 +7,7 @@ import SolutionsPage from './pages/SolutionsPage';
 import SupportPage from './pages/SupportPage';
 import Hub from './pages/Hub';
 
+// import Assistance from './components/Assistance/Assistance';
 function App() {
   return (
     <Router>
@@ -20,7 +21,9 @@ function App() {
           <Route path="/hub" element={<Hub />} />
         </Routes>
       </div>
+      {/* <Assistance/> */}
     </Router>
+     
   );
 }
 
