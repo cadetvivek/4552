@@ -104,7 +104,7 @@ We welcome contributions! Please follow these steps:
 
 ## Contact
 For queries or feedback, feel free to contact:
-- **Name:** Vivke
+- **Name:** Vivek
 - **Email:** kushwahvivek805@gmail.com
 
 
