@@ -6,6 +6,7 @@ import VihiclePage from './pages/Vihicle';
 import SolutionsPage from './pages/SolutionsPage';
 import SupportPage from './pages/SupportPage';
 import Hub from './pages/Hub';
+import Footer from './components/Footer/Footer';
 
 // import Assistance from './components/Assistance/Assistance';
 function App() {
@@ -22,6 +23,7 @@ function App() {
         </Routes>
       </div>
       {/* <Assistance/> */}
+      <Footer/>
     </Router>
      
   );

@@ -14,7 +14,7 @@ function TrackingPage() {
           <h1>Track your order</h1>
           <p>
             Universal parcel tracking to track your package from UPS, FedEx,
-            DHL, USPS, China Post and more!
+            DHL, USPS, India Post and more!
           </p>
           <form onSubmit={handleSubmit} className="tracking-form">
             <input

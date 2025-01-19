@@ -87,6 +87,7 @@ const Assistance = () => {
                       <h3>AI-Powered Smart Assistance</h3>
   
           </div>
+          <p>Predict everything, find alternate routes, and discover nearby spots and music and videos comfortably</p>
           <form className="searchBar" onSubmit={handleSearch}>
             <input
               className="searchInput"

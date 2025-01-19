@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../styles/SolutionsPage.css";
 import Assistance from "../components/Assistance/Assistance";
+// import Footer from "../components/Footer/Footer";
 const SolutionsPage = () => {
   const images = [
     
@@ -38,6 +39,7 @@ const SolutionsPage = () => {
       </div>
     </div>
     <Assistance/>
+    {/* <Footer/> */}
     </div>
 
   );
