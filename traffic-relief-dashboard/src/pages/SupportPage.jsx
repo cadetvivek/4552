@@ -4,7 +4,7 @@ const SupportPage = () => {
   return (
     <div className="contact"> 
     <div className="container">
-      <h1 className="title">Contact</h1>
+      <h1 className="title">Contact Emergency Team</h1>
       <p className="description">Submit the form below to get in touch with me</p>
       <form action="https://getform.io/f/pbqgnkkb" method="POST">
         <input type="text" name="name" placeholder="Enter your name" />

@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import TrackingPage from './pages/TrackingPage';
-import ShopsPage from './pages/ShopsPage';
+// import ShopsPage from './pages/ShopsPage';
+import VihiclePage from './pages/Vihicle';
 import SolutionsPage from './pages/SolutionsPage';
 import SupportPage from './pages/SupportPage';
 import Hub from './pages/Hub';
@@ -12,9 +13,9 @@ function App() {
       <div className="app">
         <Navbar />
         <Routes>
-          <Route path="/" element={<TrackingPage />} />
-          <Route path="/shops" element={<ShopsPage />} />
-          <Route path="/solutions" element={<SolutionsPage />} />
+          <Route path="/tracking" element={<TrackingPage />} />
+          <Route path="/vihicle" element={<VihiclePage />} />
+          <Route path="/" element={<SolutionsPage />} />
           <Route path="/support" element={<SupportPage />} />
           <Route path="/hub" element={<Hub />} />
         </Routes>

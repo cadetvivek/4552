@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../styles/ShopsPage.css';
+import '../styles/Vihicle.css';
 
-const ShopsPage = () => {
+const VihiclePage = () => {
   const [trackingNumber, setTrackingNumber] = useState('');
 
   const handleSubmit = (e) => {
@@ -59,4 +59,4 @@ const ShopsPage = () => {
   );
 };
 
-export default ShopsPage;
+export default VihiclePage;
