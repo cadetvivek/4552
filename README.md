@@ -99,12 +99,20 @@ We welcome contributions! Please follow these steps:
 ---
 
 
-
----
-
-## Contact
 For queries or feedback, feel free to contact:
 - **Name:** Vivek
 - **Email:** kushwahvivek805@gmail.com
+
+---
+
+## Contact![Screenshot (1632)](https://github.com/user-attachments/assets/2718cb5c-8677-43b2-bf61-5e90c6f985d7)
+![Screenshot (1633)](https://github.com/user-attachments/assets/5c1fcb89-d65b-4913-904c-99c8371b8587)
+![Screenshot (1634)](https://github.com/user-attachments/assets/75d634bf-c981-4a32-a14e-a510adde30a3)
+![Screenshot (1635)](https://github.com/user-attachments/assets/33fe1b97-4f84-4f82-a775-21fdea38ea66)
+![Screenshot (1636)](https://github.com/user-attachments/assets/23975ae4-b081-4247-8376-559d8b5a4bab)
+![Screenshot (1637)](https://github.com/user-attachments/assets/e82f3ff0-fc4b-42cd-a3d4-26406275033d)
+![Screenshot (1638)](https://github.com/user-attachments/assets/2f32cfc0-19c2-425d-bfc3-e2dd7e8c1073)
+![Screenshot (1631)](https://github.com/user-attachments/assets/0f3a8411-e487-4e71-93d2-63f9c29d74f7)
+
 
 
